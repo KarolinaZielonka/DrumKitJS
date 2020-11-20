@@ -1,0 +1,54 @@
+html {
+    font-size: 10px;
+    background-image: url("groove.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+  }
+  
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: .1rem solid royalblue;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .1s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: 	#181818;
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: royalblue;
+    box-shadow: 0 0 2rem #4141e1;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: royalblue;
+    text-shadow: 0px 0px 13px white;
+  }
+  
